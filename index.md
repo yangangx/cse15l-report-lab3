@@ -3,11 +3,13 @@ Use the command below to look for files and directories starting with the letter
 In our computer, we have the qatree.txt and qa.txt files as well as a directory by the name qa.
 
 ```https://geekflare.com/linux-find-commands/```
-
+Example 1:
+command:
 ```
 find ./ -name "ch*"
 ```
 
+output:
 ```
 .//non-fiction/OUP/Berk/ch2.txt
 .//non-fiction/OUP/Berk/ch1.txt
@@ -55,11 +57,13 @@ find ./ -name "ch*"
 .//non-fiction/OUP/Castro/chO.txt
 ```
 
+Exmaple 2:
 
+commnd:
 ```
 find ./ -name "A*"
 ```
-
+output:
 ```
 .//non-fiction/OUP/Abernathy
 .//travel_guides/berlitz2/Amsterdam-WhereToGo.txt
@@ -83,10 +87,12 @@ find ./ -name "A*"
 The above find command was used to search for all files greater than specified size. 
 Next, find command example will search for all files with less than 10 Kilobytes in size. Note the use of- sign:
 
+Exmaple 1:
+command:
 ```
 find . -size -10k
 ```
-
+output:
 ```
 .
 ./non-fiction
@@ -140,10 +146,12 @@ find . -size -10k
 ./travel_guides/berlitz2/Athens-Intro.txt
 ```
 
+Example 2:
+command
 ```
 find . -size -1k 
 ```
-
+output:
 ```
 ./non-fiction
 ./non-fiction/OUP
@@ -166,11 +174,12 @@ The find command combined with the -type d option is a better choice:
 ```
 https://www.redhat.com/sysadmin/linux-find-command
 ```
-
+Example 1:
+command:
 ```
 find ./non-fiction -type d
 ```
-
+output:
 ```
 ./non-fiction
 ./non-fiction/OUP
@@ -182,30 +191,38 @@ find ./non-fiction -type d
 ./non-fiction/OUP/Castro
 ```
 
+Example 2:
+command:
 ```
 find ./travel_guides -type d
 ```
-
+output:
 ```
 ./travel_guides
 ./travel_guides/berlitz1
 ./travel_guides/berlitz2
 ```
+
 # 4 
 https://geekflare.com/how-to-use-find-command-in-linux/
 
 his search with -name test is case-sensitive and would ignore file A.txt. 
 To ensure that your search is case-insensitive use -iname test:
+Example 1:
+
 ```
 find . -iname "ch4.txt"
 ```
+output:
 ```
 ./non-fiction/OUP/Berk/CH4.txt
 ./non-fiction/OUP/Kauffman/ch4.txt
 ```
+Example 2:
 ```
 find . -iname "chy.txt"
 ```
+output:
 ```
 ./non-fiction/OUP/Castro/chY.txt
 ```

@@ -2,7 +2,7 @@
 
 ```./ -name```
 
-The command use to look for files and directories starting with the letters inside the double quotation marks and before tha star.
+The command is used to look for files and directories starting with the letters inside the double quotation marks and before tha star.
 
 Source : ```https://geekflare.com/linux-find-commands/```
 

@@ -1,4 +1,9 @@
 # 1 
+Use the command below to look for files and directories starting with the letters qa. 
+In our computer, we have the qatree.txt and qa.txt files as well as a directory by the name qa.
+
+```https://geekflare.com/linux-find-commands/```
+
 ```
 find ./ -name "ch*"
 ```
@@ -68,7 +73,143 @@ find ./ -name "A*"
 .//travel_guides/berlitz2/Athens-Intro.txt
 .//travel_guides/berlitz2/Algarve-History.txt
 .//travel_guides/berlitz2/Athens-WhatToDo.txt
-yangangxu@yangangs-MacBook-Pro written_2 % 
 ```
+
+# 2
+
+```https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size```
+
+The above find command was used to search for all files greater than specified size. 
+Next, find command example will search for all files with less than 10 Kilobytes in size. Note the use of- sign:
+
+```
+find . -size -10k
+```
+
+```
+.
+./non-fiction
+./non-fiction/OUP
+./non-fiction/OUP/Berk
+./non-fiction/OUP/Abernathy
+./non-fiction/OUP/Rybczynski
+./non-fiction/OUP/Kauffman
+./non-fiction/OUP/Fletcher
+./non-fiction/OUP/Castro
+./non-fiction/OUP/Castro/chQ.txt
+./non-fiction/OUP/Castro/chW.txt
+./non-fiction/OUP/Castro/chZ.txt
+./non-fiction/OUP/Castro/chN.txt
+./non-fiction/OUP/Castro/chY.txt
+./non-fiction/OUP/Castro/chO.txt
+./travel_guides
+./travel_guides/berlitz1
+./travel_guides/berlitz1/HandRLasVegas.txt
+./travel_guides/berlitz1/IntroMalaysia.txt
+./travel_guides/berlitz1/HandRIstanbul.txt
+./travel_guides/berlitz1/HandRHongKong.txt
+./travel_guides/berlitz1/IntroEdinburgh.txt
+./travel_guides/berlitz1/IntroDublin.txt
+./travel_guides/berlitz1/IntroMadeira.txt
+./travel_guides/berlitz1/IntroIbiza.txt
+./travel_guides/berlitz1/IntroIsrael.txt
+./travel_guides/berlitz1/WhatToHawaii.txt
+./travel_guides/berlitz1/HandRLisbon.txt
+./travel_guides/berlitz1/IntroLosAngeles.txt
+./travel_guides/berlitz1/HandRMallorca.txt
+./travel_guides/berlitz1/JungleMalaysia.txt
+./travel_guides/berlitz1/WhatToFrance.txt
+./travel_guides/berlitz1/HandRLosAngeles.txt
+./travel_guides/berlitz1/IntroJerusalem.txt
+./travel_guides/berlitz1/HandRMadeira.txt
+./travel_guides/berlitz1/HandRIbiza.txt
+./travel_guides/berlitz1/IntroIstanbul.txt
+./travel_guides/berlitz1/IntroHongKong.txt
+./travel_guides/berlitz1/IntroFWI.txt
+./travel_guides/berlitz1/IntroGreek.txt
+./travel_guides/berlitz1/HandRLakeDistrict.txt
+./travel_guides/berlitz1/WhereToHawaii.txt
+./travel_guides/berlitz1/HandRJerusalem.txt
+./travel_guides/berlitz1/IntroEgypt.txt
+./travel_guides/berlitz1/IntroMallorca.txt
+./travel_guides/berlitz2
+./travel_guides/berlitz2/Algarve-Intro.txt
+./travel_guides/berlitz2/Bahamas-Intro.txt
+./travel_guides/berlitz2/Amsterdam-Intro.txt
+./travel_guides/berlitz2/Athens-Intro.txt
+```
+
+```
+find . -size -1k 
+```
+
+```
+./non-fiction
+./non-fiction/OUP
+./non-fiction/OUP/Berk
+./non-fiction/OUP/Abernathy
+./non-fiction/OUP/Rybczynski
+./non-fiction/OUP/Kauffman
+./non-fiction/OUP/Fletcher
+./non-fiction/OUP/Castro
+./travel_guides
+./travel_guides/berlitz1/HandRIstanbul.txt
+./travel_guides/berlitz1/HandRIbiza.txt
+```
+# 3
+
+A shortcoming of the ls command is that you can't filter its results by file type, 
+so it can be noisy if you only want a listing of directories in a path. 
+The find command combined with the -type d option is a better choice:
+
+```
+https://www.redhat.com/sysadmin/linux-find-command
+```
+
+```
+find ./non-fiction -type d
+```
+
+```
+./non-fiction
+./non-fiction/OUP
+./non-fiction/OUP/Berk
+./non-fiction/OUP/Abernathy
+./non-fiction/OUP/Rybczynski
+./non-fiction/OUP/Kauffman
+./non-fiction/OUP/Fletcher
+./non-fiction/OUP/Castro
+```
+
+```
+find ./travel_guides -type d
+```
+
+```
+./travel_guides
+./travel_guides/berlitz1
+./travel_guides/berlitz2
+```
+# 4 
+https://geekflare.com/how-to-use-find-command-in-linux/
+
+his search with -name test is case-sensitive and would ignore file A.txt. 
+To ensure that your search is case-insensitive use -iname test:
+```
+find . -iname "ch4.txt"
+```
+```
+./non-fiction/OUP/Berk/CH4.txt
+./non-fiction/OUP/Kauffman/ch4.txt
+```
+```
+find . -iname "chy.txt"
+```
+```
+./non-fiction/OUP/Castro/chY.txt
+```
+
+
+
 
 

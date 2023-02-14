@@ -2,7 +2,7 @@
 
 ```./ -name```
 
-The command is used to look for files and directories starting with the letters inside the double quotation marks and before tha star.
+The command is used to look for files and directories starting with the letters inside the double quotation marks and in front of the star.
 
 Source : ```https://geekflare.com/linux-find-commands/```
 
@@ -94,8 +94,7 @@ output:
 
 ```-size```
 
-The command is used to search for all files less or greater than the specified size. It will depens on the sign infront of the words ```-size```.
-
+The command is used to search for all files less or greater than the specified size. It will depends on the sign infront of the words ```size```. If it is ```+```, It will search for all greater than the specified size. If it is ```-```, it will search for all less than the specified size. The specified size is behind ```size```.
 Source ```https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size```
 
 Exmaple 1:

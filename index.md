@@ -4,7 +4,9 @@ In our computer, we have the qatree.txt and qa.txt files as well as a directory 
 
 ```https://geekflare.com/linux-find-commands/```
 Example 1:
+
 command:
+
 ```
 find ./ -name "ch*"
 ```
@@ -60,10 +62,13 @@ output:
 Exmaple 2:
 
 commnd:
+
 ```
 find ./ -name "A*"
 ```
+
 output:
+
 ```
 .//non-fiction/OUP/Abernathy
 .//travel_guides/berlitz2/Amsterdam-WhereToGo.txt
@@ -88,11 +93,15 @@ The above find command was used to search for all files greater than specified s
 Next, find command example will search for all files with less than 10 Kilobytes in size. Note the use of- sign:
 
 Exmaple 1:
+
 command:
+
 ```
 find . -size -10k
 ```
+
 output:
+
 ```
 .
 ./non-fiction
@@ -147,11 +156,15 @@ output:
 ```
 
 Example 2:
+
 command
+
 ```
 find . -size -1k 
 ```
+
 output:
+
 ```
 ./non-fiction
 ./non-fiction/OUP
@@ -165,6 +178,7 @@ output:
 ./travel_guides/berlitz1/HandRIstanbul.txt
 ./travel_guides/berlitz1/HandRIbiza.txt
 ```
+
 # 3
 
 A shortcoming of the ls command is that you can't filter its results by file type, 
@@ -174,12 +188,17 @@ The find command combined with the -type d option is a better choice:
 ```
 https://www.redhat.com/sysadmin/linux-find-command
 ```
+
 Example 1:
+
 command:
+
 ```
 find ./non-fiction -type d
 ```
+
 output:
+
 ```
 ./non-fiction
 ./non-fiction/OUP
@@ -192,11 +211,15 @@ output:
 ```
 
 Example 2:
+
 command:
+
 ```
 find ./travel_guides -type d
 ```
+
 output:
+
 ```
 ./travel_guides
 ./travel_guides/berlitz1
@@ -210,19 +233,28 @@ his search with -name test is case-sensitive and would ignore file A.txt.
 To ensure that your search is case-insensitive use -iname test:
 Example 1:
 
+command:
 ```
 find . -iname "ch4.txt"
 ```
+
 output:
+
 ```
 ./non-fiction/OUP/Berk/CH4.txt
 ./non-fiction/OUP/Kauffman/ch4.txt
 ```
+
 Example 2:
+
+command:
+
 ```
 find . -iname "chy.txt"
 ```
+
 output:
+
 ```
 ./non-fiction/OUP/Castro/chY.txt
 ```

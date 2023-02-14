@@ -103,7 +103,6 @@ command:
 
 ```
 find . -size -10k
-
 ```
 
 
@@ -160,7 +159,6 @@ output:
 ./travel_guides/berlitz2/Bahamas-Intro.txt
 ./travel_guides/berlitz2/Amsterdam-Intro.txt
 ./travel_guides/berlitz2/Athens-Intro.txt
-
 ```
 
 Example 2:
@@ -169,7 +167,6 @@ command
 
 ```
 find . -size -1k 
-
 ```
 
 output:
@@ -186,7 +183,6 @@ output:
 ./travel_guides
 ./travel_guides/berlitz1/HandRIstanbul.txt
 ./travel_guides/berlitz1/HandRIbiza.txt
-
 ```
 
 # List directories
@@ -204,7 +200,6 @@ command:
 
 ```
 find ./non-fiction -type d
-
 ```
 
 output:
@@ -226,7 +221,6 @@ command:
 
 ```
 find ./travel_guides -type d
-
 ```
 
 output:
@@ -235,7 +229,6 @@ output:
 ./travel_guides
 ./travel_guides/berlitz1
 ./travel_guides/berlitz2
-
 ```
 
 # Search files with case-insensitive
@@ -252,7 +245,6 @@ command:
 
 ```
 find . -iname "ch4.txt"
-
 ```
 
 output:
@@ -260,7 +252,6 @@ output:
 ```
 ./non-fiction/OUP/Berk/CH4.txt
 ./non-fiction/OUP/Kauffman/ch4.txt
-
 ```
 
 Example 2:
@@ -269,12 +260,10 @@ command:
 
 ```
 find . -iname "chy.txt"
-
 ```
 
 output:
 
 ```
 ./non-fiction/OUP/Castro/chY.txt
-
 ```

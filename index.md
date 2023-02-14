@@ -1,6 +1,5 @@
 # search files with the starting pattern
 
-
 The command is used to look for files and directories starting with the letters inside the double quotation marks and in front of the star.
 
 Source: [Link](https://geekflare.com/linux-find-commands/)
@@ -9,13 +8,11 @@ Source: [Link](https://geekflare.com/linux-find-commands/)
 Example 1:
 
 command:
-
 ```
 find ./ -name "ch*"
 ```
 
 output:
-
 ```
 .//non-fiction/OUP/Berk/ch2.txt
 .//non-fiction/OUP/Berk/ch1.txt
@@ -66,13 +63,11 @@ output:
 Exmaple 2:
 
 command:
-
 ```
 find ./ -name "A*"
 ```
 
 output:
-
 ```
 .//non-fiction/OUP/Abernathy
 .//travel_guides/berlitz2/Amsterdam-WhereToGo.txt
@@ -92,24 +87,23 @@ output:
 # Search files and folders by size
 
 
-The command is used to search for all files less or greater than the specified size. It will depends on the sign infront of the words ```size```. 
-If it is ```+```, It will search for all greater than the specified size. If it is ```-```, it will search for all less than the specified size. 
-The specified size is behind ```size```.
+The command is used to search for all files less or greater than the specified size. 
+It will depends on the sign infront of the words size. 
+If it is +, It will search for all greater than the specified size. 
+If it is -, it will search for all less than the specified size. 
+The specified size is behind size.
 
 
 Source: [Link](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)
 
 Exmaple 1:
-
 command:
-
 ```
 find . -size -10k
 ```
 
 
 output:
-
 ```
 .
 ./non-fiction
@@ -164,15 +158,12 @@ output:
 ```
 
 Example 2:
-
-command
-
+command:
 ```
 find . -size -1k 
 ```
 
 output:
-
 ```
 ./non-fiction
 ./non-fiction/OUP
@@ -189,7 +180,6 @@ output:
 
 # List directories
 
-
 The command is used to list directories in a path.
 
 Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
@@ -197,14 +187,11 @@ Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 Example 1:
 
 command:
-
-
 ```
 find ./non-fiction -type d
 ```
 
 output:
-
 ```
 ./non-fiction
 ./non-fiction/OUP
@@ -219,13 +206,11 @@ output:
 Example 2:
 
 command:
-
 ```
 find ./travel_guides -type d
 ```
 
 output:
-
 ```
 ./travel_guides
 ./travel_guides/berlitz1
@@ -242,13 +227,11 @@ Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 Example 1:
 
 command:
-
 ```
 find . -iname "ch4.txt"
 ```
 
 output:
-
 ```
 ./non-fiction/OUP/Berk/CH4.txt
 ./non-fiction/OUP/Kauffman/ch4.txt
@@ -257,13 +240,11 @@ output:
 Example 2:
 
 command:
-
 ```
 find . -iname "chy.txt"
 ```
 
 output:
-
 ```
 ./non-fiction/OUP/Castro/chY.txt
 ```

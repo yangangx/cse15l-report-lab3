@@ -2,7 +2,10 @@
 Use the command below to look for files and directories starting with the letters qa. 
 In our computer, we have the qatree.txt and qa.txt files as well as a directory by the name qa.
 
-```https://geekflare.com/linux-find-commands/```
+
+https://geekflare.com/linux-find-commands/
+
+
 Example 1:
 
 command:
@@ -12,6 +15,7 @@ find ./ -name "ch*"
 ```
 
 output:
+
 ```
 .//non-fiction/OUP/Berk/ch2.txt
 .//non-fiction/OUP/Berk/ch1.txt
@@ -87,7 +91,7 @@ output:
 
 # 2
 
-```https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size```
+https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
 
 The above find command was used to search for all files greater than specified size. 
 Next, find command example will search for all files with less than 10 Kilobytes in size. Note the use of- sign:
@@ -185,9 +189,8 @@ A shortcoming of the ls command is that you can't filter its results by file typ
 so it can be noisy if you only want a listing of directories in a path. 
 The find command combined with the -type d option is a better choice:
 
-```
+
 https://www.redhat.com/sysadmin/linux-find-command
-```
 
 Example 1:
 
@@ -251,12 +254,14 @@ command:
 
 ```
 find . -iname "chy.txt"
+
 ```
 
 output:
 
 ```
 ./non-fiction/OUP/Castro/chY.txt
+
 ```
 
 

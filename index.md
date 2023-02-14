@@ -94,7 +94,7 @@ output:
 
 ```-size```
 
-The command is used to search for all files less or greater than the specified size. It will depens on the sign infront of the words ```size```.
+The command is used to search for all files less or greater than the specified size. It will depens on the sign infront of the words ```-size```.
 
 Source ```https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size```
 

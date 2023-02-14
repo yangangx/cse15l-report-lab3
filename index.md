@@ -1,10 +1,9 @@
 # search files with the starting pattern
 
-```./ -name```
 
 The command is used to look for files and directories starting with the letters inside the double quotation marks and in front of the star.
 
-[Link](https://geekflare.com/linux-find-commands/)
+Source: [Link](https://geekflare.com/linux-find-commands/)
 
 
 Example 1:
@@ -92,15 +91,13 @@ output:
 
 # Search files and folders by size
 
-```-size```
-
 
 The command is used to search for all files less or greater than the specified size. It will depends on the sign infront of the words ```size```. 
 If it is ```+```, It will search for all greater than the specified size. If it is ```-```, it will search for all less than the specified size. 
 The specified size is behind ```size```.
 
 
-Source ```https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size```
+Source: [Link](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)
 
 Exmaple 1:
 
@@ -192,11 +189,10 @@ output:
 
 # List directories
 
-```-type d```
 
 The command is used to list directories in a path.
 
-Source: ```https://www.redhat.com/sysadmin/linux-find-command```
+Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 Example 1:
 
@@ -238,11 +234,10 @@ output:
 
 # Search files with case-insensitive
 
-```-iname```
 
 This command is used to search files name with case-insensitive.
 
-Source: ```https://geekflare.com/how-to-use-find-command-in-linux/```
+Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
 
 Example 1:
 

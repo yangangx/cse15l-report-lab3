@@ -235,6 +235,7 @@ output:
 ```-iname```
 
 This command is used to search files name with case-insensitive.
+
 Source: ```https://geekflare.com/how-to-use-find-command-in-linux/```
 
 Example 1:

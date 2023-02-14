@@ -1,9 +1,10 @@
-# 1 
-Use the command below to look for files and directories starting with the letters qa. 
-In our computer, we have the qatree.txt and qa.txt files as well as a directory by the name qa.
+# search files with the starting pattern
 
+```./ -name```
 
-https://geekflare.com/linux-find-commands/
+The command use to look for files and directories starting with the letters inside the double quotation marks and before tha star.
+
+Source : ```https://geekflare.com/linux-find-commands/```
 
 
 Example 1:
@@ -89,12 +90,13 @@ output:
 .//travel_guides/berlitz2/Athens-WhatToDo.txt
 ```
 
-# 2
+# Search files and folders by size
 
-https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size
+```-size```
 
-The above find command was used to search for all files greater than specified size. 
-Next, find command example will search for all files with less than 10 Kilobytes in size. Note the use of- sign:
+The command is used to search for all files less or greater than the specified size. It will depens on the sign infront of the words ```size```.
+
+Source ```https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size```
 
 Exmaple 1:
 
@@ -183,14 +185,13 @@ output:
 ./travel_guides/berlitz1/HandRIbiza.txt
 ```
 
-# 3
+# List directories
 
-A shortcoming of the ls command is that you can't filter its results by file type, 
-so it can be noisy if you only want a listing of directories in a path. 
-The find command combined with the -type d option is a better choice:
+```-type d```
 
+The command is used to list directories in a path.
 
-https://www.redhat.com/sysadmin/linux-find-command
+Source: ```https://www.redhat.com/sysadmin/linux-find-command```
 
 Example 1:
 
@@ -229,11 +230,13 @@ output:
 ./travel_guides/berlitz2
 ```
 
-# 4 
-https://geekflare.com/how-to-use-find-command-in-linux/
+# Search files with case-insensitive
 
-his search with -name test is case-sensitive and would ignore file A.txt. 
-To ensure that your search is case-insensitive use -iname test:
+```-iname```
+
+This command is used to search files name with case-insensitive.
+Source: ```https://geekflare.com/how-to-use-find-command-in-linux/```
+
 Example 1:
 
 command:
@@ -262,8 +265,3 @@ output:
 ```
 ./non-fiction/OUP/Castro/chY.txt
 ```
-
-
-
-
-

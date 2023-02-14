@@ -196,6 +196,7 @@ Example 1:
 
 command:
 
+
 ```
 find ./non-fiction -type d
 ```
@@ -240,12 +241,12 @@ Source: ```https://geekflare.com/how-to-use-find-command-in-linux/```
 Example 1:
 
 command:
+
 ```
 find . -iname "ch4.txt"
 ```
 
 output:
-
 
 ```
 ./non-fiction/OUP/Berk/CH4.txt

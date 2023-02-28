@@ -14,7 +14,7 @@ First, go to the ```Github``` page, find the fork of the repository, then use ``
 ## 6. Run the tests, demonstrating that they fail
 
 ![Image](6.png)
-First, I have to change the current dirctory to ```lab7``` dirctory, I type ```cd lab7``` on the Terminal, then press `<Enter>`, to change to ```lab7``` directory. Then, I press ```control + R```, then I type ```javac```, to search the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, then press `<Enter>` to compile java files in the directory. After that, I press ```Control + R```, then type ```runner``` to search the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```, then press `<Enter>` to run the ```Junit Test```. It shows that there are two test total, one test Failures.
+First, I have to change the current dirctory to ```lab7``` dirctory, I type ```cd lab7``` on the terminal, then press `<Enter>`, to change to ```lab7``` directory. Then, I press ```control + R```, then I type ```javac```, to search the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, then press `<Enter>` to compile java files in the directory. After that, I press ```Control + R```, then type ```runner``` to search the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```, then press `<Enter>` to run the ```Junit Test```. It shows that there are two test total, one test Failures.
 
 ## 7. Edit the code file to fix the failing test
 ![Image](7-1.png)

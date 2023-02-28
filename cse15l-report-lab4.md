@@ -1,5 +1,3 @@
-# Lab-Report-Lab4
-
 ## 4. Log into ieng6
 ![Image](4.png)
 

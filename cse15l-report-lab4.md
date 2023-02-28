@@ -9,7 +9,7 @@ The first step for log into ieng6 is to use ```control + R``` to search the comm
 
 ![Image](5.png)
 
-First, go to the ```Github``` page, find the fork of the repository, then use ```command + C``` to copy the ```ssh``` clone URL. After I copied the clone URL from the ```Github```, then go back to the ```Terminal```, type ```git clone``` then paste the ```ssh``` URL link, then press `<Enter>`, It will clone my fork of the repository from my ```Github``` account. 
+First, go to the ```Github``` page, find the fork of the repository, then use ```command + C``` to copy the ```ssh``` clone URL. After I copied the clone URL from the ```Github```, then go back to the terminal, type ```git clone``` then paste the ```ssh``` URL link, then press `<Enter>`, It will clone my fork of the repository from my ```Github``` account. 
 
 ## 6. Run the tests, demonstrating that they fail
 

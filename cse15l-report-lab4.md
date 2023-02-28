@@ -23,7 +23,7 @@ First, I have to change the current dirctory to ```lab7``` dirctory, I type ```c
 
 ![Image](7-3.png)
 
-I type ```nano ListExamples.java```, then press `<Enter>` to open the ```ListExamples.java``` file, then I can see the code, it shows in the first image. After than, I press the key ```down``` to move to the bottom. I see the bug on the bottom, shows in the second picture. It should be ```index2 += 1;```, not ```index1 += 1;```. The last image shows the code after I fixed it. Then, I press ```Control + X``` to exit the file, and type ```y``` and press `<Enter>` to save the change and exist the file.
+I type ```nano ListExamples.java```, then press `<Enter>` to open the ```ListExamples.java``` file, then I can see the code, it shows in the first image. After than, I press the key ```down``` to move to the bottom. I see the bug on the bottom, shows in the second picture. It should be ```index2 += 1;```, not ```index1 += 1;```. The last image shows the code after I fixed it. Then, I press ```Control + X``` to exit the file, and type ```y``` and press `<Enter>` to save the change and exit the file.
 
 ## 8. Run the tests, demonstrating that they now succeed
 

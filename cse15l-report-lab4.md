@@ -29,7 +29,7 @@ I type ```nano ListExamples.java```, then press <Enter> to open the ```ListExamp
 
 ![Image](8.png)
 
-I used the same way as I did in step 6 to run the test. First, I press ```control + R```, then I type ````javac```, to search the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, then press <Enter> to compile java files in the directory. After that, I press ```Control + R```, then type ```runner``` to search the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```, then press <Enter> to run the ```Junit Test```. It shows ```OK```. It show in the image above.
+I used the same way as I did in step 6 to run the test. First, I press ```control + R```, then I type ```javac```, to search the command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```, then press <Enter> to compile java files in the directory. After that, I press ```Control + R```, then type ```runner``` to search the command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```, then press <Enter> to run the ```Junit Test```. It shows ```OK```. It show in the image above.
 
 
 ## 9 Commit and push the resulting change to your Github account (you can pick any commit message!)

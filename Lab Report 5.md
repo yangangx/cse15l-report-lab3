@@ -1,8 +1,9 @@
-My favorite lab report is lab report 3. I did the exploration of several options for `find` in the lab report 3. I am going to do some exploration for `grep` this time. I feel those commands are useful for me. I did this task by searching how to use `grep` command from online. I also can use ChatGTP to ask how to use those commands. I like to search from online, beacuse I can know more about the how to use those commands and more explanation from different website. By looking the different website can make me more understand  about how to use those commands and what those commands do.
+My favorite lab report is lab report 3. I did some exploration for `find` in lab report 3. I am going to do some exploration for `grep` this time. I feel those commands are useful for me. I did this task by searching how to use `grep` command online. I also can use ChatGTP to ask how to use those commands. I like to search online because I can learn more about how to use those commands and get more explanations from different websites. Looking at the different websites helps me understand how to use those commands and what those commands do.
+
 
 ## Count the lines where strings are matched
 
-The command will count the total number of lines where the string patern appears in the file.
+The command will count the total number of lines where the string pattern appears in the file.
 
 Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
@@ -29,7 +30,7 @@ Output:
 
 ## To number the lines where the string pattern appears in the file.
 
-The command will show all lines where the search string are matched with the numebr infront of each line.
+The command will show the number of each line where the search string are matched.
 
 Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
@@ -83,7 +84,7 @@ Output:
 
 ## Print lines begining with certain character.
 
-The command will print all lines begining with certain character.
+The command will print all lines beginning with certain character.
 
 Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 

@@ -4,8 +4,8 @@ My favorite lab report is lab report 3. I did the exploration of several options
 
 The command will count the total number of lines where the string patern appears in the file.
 
-
 Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+
 
 Example1 :
 
@@ -29,7 +29,7 @@ Output:
 
 ## To number the lines where the string pattern appears in the file.
 
-[Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
 Example1 :
 
@@ -55,6 +55,9 @@ Output:
 ## Colorizing Grep results
 
 The command will show the search string in different color from the rest of the text.
+
+Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+
 
 Example1 :
 

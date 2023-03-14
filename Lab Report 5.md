@@ -29,6 +29,8 @@ Output:
 
 ## To number the lines where the string pattern appears in the file.
 
+The command will show all lines where the search string are matched with the numebr infront of each line.
+
 Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
 Example1 :
@@ -78,6 +80,28 @@ Command:
 Output:
 
 ![Image](3-2.png)
+
+## Print lines begining with certain character.
+
+The command will print all lines begining with certain character.
+
+Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+
+Example 1 :
+
+```grep ^I ch1.txt```
+
+Output: 
+
+![Image](4-1.png)
+
+Example 2 :
+
+```grep ^I ch2.txt```
+
+![Image](4-2.png)
+
+
 
 
 

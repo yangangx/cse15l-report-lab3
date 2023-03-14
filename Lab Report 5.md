@@ -1,4 +1,4 @@
-My favorite lab report is lab report 3. I did the exploration of several options for find in the lab report 3. I am going to do some exploration for `grep` this time.
+My favorite lab report is lab report 3. I did the exploration of several options for `find` in the lab report 3. I am going to do some exploration for `grep` this time. I feel those commands are useful for me. I did this task by searching how to use `grep` command from online. I also can use ChatGTP to ask how to use those commands. I like to search from online, beacuse I can know more about the how to use those commands and more explanation from different website. By looking the different website can make me more understand  about how to use those commands and what those commands do.
 
 ## Count the lines where strings are matched
 

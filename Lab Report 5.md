@@ -90,6 +90,8 @@ Source: [Link](https://www.digitalocean.com/community/tutorials/grep-command-in-
 
 Example 1 :
 
+Command:
+
 ```grep ^I ch1.txt```
 
 Output: 
@@ -97,6 +99,8 @@ Output:
 ![Image](4-1.png)
 
 Example 2 :
+
+Command:
 
 ```grep ^I ch2.txt```
 

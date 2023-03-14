@@ -101,18 +101,3 @@ Example 2 :
 ```grep ^I ch2.txt```
 
 ![Image](4-2.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

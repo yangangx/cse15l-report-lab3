@@ -100,4 +100,6 @@ Example 2 :
 
 ```grep ^I ch2.txt```
 
+Output:
+
 ![Image](4-2.png)

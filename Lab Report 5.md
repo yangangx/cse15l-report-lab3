@@ -1,4 +1,4 @@
-My favorite lab report is lab report 3. I did some exploration for `find` in lab report 3. I am going to do some exploration for `grep` this time. I feel those commands are useful for me. I did this task by searching how to use `grep` command online. I also can use ChatGTP to ask how to use those commands. I like to search online because I can learn more about how to use those commands and get more explanations from different websites. Looking at the different websites helps me understand how to use those commands and what those commands do.
+My favorite lab report is lab report 3. I did some exploration for `find` in lab report 3. I am going to do some exploration for `grep` this time. I feel those commands are useful for me. I did this task by searching how to use `grep` command online. I also can use ChatGPT to ask how to use those commands. I like to search online because I can learn more about how to use those commands and get more explanations from different websites. Looking at the different websites helps me understand how to use those commands and what those commands do.
 
 
 ## Count the lines where strings are matched
